@@ -19,7 +19,7 @@ function initMap() {
     }
 
 
-    var locations = jQuery.getJSON('https://raw.githubusercontent.com/pierreroudaut/transat-route/master/markers.json', (markers) => {
+    var locations = jQuery.getJSON('https://rawgit.com/pierreroudaut/transat-route/master/markers.json', (markers) => {
         var coords = markers.map((marker) => (
             {
                 'lat': marker.location[0],
