@@ -1,29 +1,12 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+From 2017-10-21 to 2017-11-23, I had the chance to cross the atlantic with my father and a friend on a sailboat. We were using [adrena](http://www.adrena.fr/en/) as navigation software. On top of all it's features, this program has the builtin functionality to log every minutes in a text file the following informations:
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* **Location** (latitude and longitude)
+* **Speed** (on ground)
+* **Cap** (on ground)
+* (true) **Wind speed**
+* (true) **Wind orientation**
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+At the end of the trip, I retrieved this log file and back to my computer later, I filtered the time range into which we had sailed and reworked the data to make it digestible by the [Google Maps API](https://developers.google.com/maps/documentation/) and create a rather accurate (~43k data points) [route](https://pierreroudaut.github.io/transat-route/) of our journey.
