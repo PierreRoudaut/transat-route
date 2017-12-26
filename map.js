@@ -1,9 +1,3 @@
-// This example creates a 2-pixel-wide red polyline showing the path of
-// the first trans-Pacific flight between Oakland, CA, and Brisbane,
-// Australia which was made by Charles Kingsford Smith.
-
-
-
 function initMap() {
 
 
@@ -25,7 +19,7 @@ function initMap() {
     }
 
 
-    var locations = jQuery.getJSON('markers.json', (markers) => {
+    var locations = jQuery.getJSON('https://raw.githubusercontent.com/pierreroudaut/transat-route/master/markers.json', (markers) => {
         var coords = markers.map((marker) => (
             {
                 'lat': marker.location[0],
