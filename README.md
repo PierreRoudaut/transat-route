@@ -3,6 +3,9 @@
 
 From 2017-10-21 to 2017-11-23, I had the chance to cross the atlantic with my father and a friend on a sailboat. We were using [adrena](http://www.adrena.fr/en/) as navigation software. On top of all it's features, this program has the builtin functionality to log every minutes in a text file the following informations:
 
+![image](https://user-images.githubusercontent.com/7418521/209244614-c3801058-57d5-4460-914b-7dcc0d453c1a.png)
+
+
 * **Datetime** 
 * **Location** (latitude and longitude)
 * **Speed** (on ground)
